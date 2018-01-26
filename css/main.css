@@ -1,0 +1,282 @@
+h2 {
+  text-align: center;
+  margin: 5% 0% 0% 0%;
+  font-size: 45px;
+}
+
+hr {
+  width: 80px;
+  height: 6px;
+  border: none;
+  background-color: black;
+  margin-bottom: 70px
+}
+
+body {
+  background: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Avenir', sans-serif;
+}
+
+/* –––––––– Header –––––––– */
+header {
+  position: relative;
+}
+
+header .navigation {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: transparent;
+  padding-bottom: 30px;
+  color: white
+}
+
+.sticky {
+  position: fixed !important;
+  background: black !important;
+  z-index: 2;
+}
+
+
+header .navigation .header-logo {
+  width: auto;
+  height: 30px;
+  margin: 25px 0px 0px 25px;
+}
+
+header .navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 35px 35px 0px 0px;
+}
+
+header .navigation ul li {
+  float: left;
+  margin-right: 20px;
+}
+
+header .navigation ul li:last-child {
+  margin-right: 0;
+}
+
+header .navigation ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1.03px;
+  opacity: 0.9
+}
+
+header .navigation ul li a:hover {
+  opacity: 1.0
+}
+
+header .video-container video {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 0;
+}
+
+header .video-container .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  margin: 0px;
+  text-align: center;
+  z-index: 1;
+  color: white;
+}
+
+header .content .overskrift {
+  font-size: 70px;
+}
+
+header .content .catchphrase {
+  font-size: 35px;
+  font-weight: 200;
+}
+
+header .content .catchphrase, .overskrift {
+  margin: 0;
+  padding: 0;
+}
+
+/* –––––––– Vision –––––––– */
+#vision {
+  max-width: 700px;
+  margin: 0px auto 0px auto;
+  padding-top: 150px;
+}
+
+#vision p {
+  font-size: 24px;
+  font-weight: 200;
+  text-align: center;
+}
+
+
+/* Menu */
+#menu {
+  max-width: 1200px;
+  margin: auto;
+}
+#menu .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#menu .mad-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 450px;
+}
+#menu .mad-container img {
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+}
+#menu .menu-overskrift {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 1%;
+  margin: 10px 0 0 0;
+}
+
+#menu .menu-pris {
+  color: red;
+  margin: 1% 0% 1% 0%;
+  margin: 0;
+}
+#menu p {
+  margin-bottom: 5%;
+  line-height: 25px;
+  margin: 10px 0 0 0;
+}
+
+
+/* Kokkene bag */
+
+#kokke .team {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#kokke .person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 250px;
+  margin: 0px 50px 0px 50px;
+}
+#kokke .person img {
+  border-radius: 50%;
+  width: 100%;
+}
+#kokke .person .navn {
+  margin: 4% 0% 0% 0%;
+  font-size: 25px;
+  font-weight: 500;
+}
+#kokke .person h4 {
+  margin: 1% 0% 2% 0%;
+  color: #A4A4;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+
+
+/* –––––––– Lokationer –––––––– */
+
+#lokationer {
+  margin: 5%
+}
+
+#lokationer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#lokationer .image {
+  height: 500px;
+  width: auto;
+  margin-right: 40px
+}
+
+#lokationer .content {
+  max-width: 350px;
+  margin: 0;
+  padding: 0;
+}
+
+#lokationer .content p, h1 {
+  margin: 0;
+  font-weight: 200;
+}
+
+#lokationer .content .lokation-navn {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0;
+}
+
+#lokationer .content .adresse {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+}
+
+#lokationer .content .tider {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  color: #A4A4A4;
+}
+
+#lokationer .content .beskrivelse {
+  margin: 0;
+  font-size: 18px;
+}
+
+
+
+#footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+#footer .email {
+   padding-top: 150px;
+   padding-bottom: 40px;
+   font-size: 70px;
+   text-align: center;
+}
+
+#footer .email a {
+   color: white;
+   text-decoration: none;
+}
+
+#footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 20px 20px;
+}
+
+#footer .container .footlogo, #footer .container .social img {
+  height: 50px;
+}
