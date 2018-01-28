@@ -42,6 +42,12 @@ header .navigation {
   z-index: 2;
 }
 
+.non-sticky {
+  position: absolute !important;
+  background: transparent !important;
+  z-index: 2;
+}
+
 
 header .navigation .header-logo {
   width: auto;
